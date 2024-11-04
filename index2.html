@@ -3,58 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - CV</title>
-    <link rel="stylesheet" href="styles2.css">
+    <title>Responsive Resume Template</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header>
-        <h1>Rojenn Clyde Patigdas</h1>
-        <p>Email: patigdasr@gmail.com | Phone: (+63) 9209714135 </p>
+        <div class="container">
+            <h1>Your Name Here</h1>
+            <p>Your Profession | Job Title</p>
+        </div>
     </header>
 
-    <section id="summary">
-        <a href="https://rojpatigdas.github.io/sample-resume/">
-            <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rojpatigdas&layout=compact" />
-        </a>
-           
+    <section class="container about">
+        <h2>About Me</h2>
+        <p>Write a brief summary about yourself. This could include your experience, goals, or any key qualities you’d like to highlight.</p>
     </section>
 
-    <section id="summary">
-        <h2>Summary</h2>
-        <p>Brief summary about yourself, highlighting your skills and career goals.</p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Job Title - Company Name</h3>
-            <p>Location | Month Year - Month Year</p>
-            <ul>
-                <li>Responsibility or achievement 1</li>
-                <li>Responsibility or achievement 2</li>
-                <li>Responsibility or achievement 3</li>
-            </ul>
-        </div>
-        <!-- Repeat .job div for more positions -->
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <div class="edu">
-            <h3>Degree - Institution Name</h3>
-            <p>Location | Month Year - Month Year</p>
-        </div>
-        <!-- Repeat .edu div for more education -->
-    </section>
-    <section id="skills">
+    <section class="container">
         <h2>Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <!-- Add more skills as needed -->
-        </ul>
+        <div class="skills">
+            <div class="skill-item">Skill 1</div>
+            <div class="skill-item">Skill 2</div>
+            <div class="skill-item">Skill 3</div>
+            <div class="skill-item">Skill 4</div>
+            <div class="skill-item">Skill 5</div>
+            <div class="skill-item">Skill 6</div>
+        </div>
     </section>
+
+    <section class="container">
+        <h2>Experience</h2>
+        <div class="experience">
+            <div class="job">
+                <h3>Job Title at Company Name</h3>
+                <p><em>Start Date - End Date</em></p>
+                <ul>
+                    <li>List your key responsibilities or achievements here.</li>
+                    <li>Highlight any major projects or milestones.</li>
+                    <li>Include relevant technologies or tools you used.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Job Title at Previous Company</h3>
+                <p><em>Start Date - End Date</em></p>
+                <ul>
+                    <li>Summarize your role and responsibilities.</li>
+                    <li>Showcase any notable achievements or contributions.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="degree">
+                <h3>Degree Name</h3>
+                <p><em>Institution Name</em></p>
+                <p>Start Year - End Year</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
     <footer>
-        <p>© 2024 Your Name</p>
+        <div class="container">
+            <p>© 2024 Your Name. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
