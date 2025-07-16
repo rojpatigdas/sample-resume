@@ -3,37 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>My Resume</title>
+    <title>Rojenn Clyde G. Patigdas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body id="resume-body">
-    <p>
-        <img id="profile-pic" src="./assets/Roj.png" alt="Profile Picture" width="200" height="180" style="vertical-align:left"/>
-    </p>
-    <h1>Rojenn Clyde Patigdas</h1>
-<hr/>
+<body>
+    <header id="resume-header">
+        <div class="container">
+            <div class="header-flex">
+                <div class="photo-container">
+                    <img src="./assets/Roj.png" alt="Rojenn Clyde G. Patigdas">
+                </div>
+                <div class="header-info">
+                    <h1>Rojenn Clyde G. Patigdas</h1>
+                    <p>Davao City, Philippines | patigdasr@gmail.com</p>
+                    <p><a href="https://github.com/rojpatigdas">github.com/rojpatigdas</a> | <a href="https://linkedin.com/in/rojenn-clyde-patigdas-0993041a5">linkedin.com/in/rojenn-clyde-patigdas-0993041a5</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<a href="https://rojpatigdas.github.io/sample-resume/">
-    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rojpatigdas&layout=compact&theme=radical" />
-  </a>
+    <section class="container about">
+        <h2>Career Summary</h2>
+        <p>Self-taught and project-driven front-end developer with a strong foundation in PHP (WHMCS), HTML, CSS, and JavaScript. Previously worked as a Workflow Engineer, automating business processes and building custom modules within WHMCS. Passionate about building responsive user interfaces and continuously learning React, Tailwind, and modern front-end practices. Open to remote opportunities.</p>
+    </section>
+
+    <section class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <div class="skill-item">React.js</div>
+            <div class="skill-item">JavaScript (ES6+)</div>
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">PHP (WHMCS)</div>
+            <div class="skill-item">Tailwind CSS</div>
+            <div class="skill-item">REST API integration</div>
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">WHMCS customization</div>
+            <div class="skill-item">Workflow automation</div>
+            <div class="skill-item">Debugging</div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Experience</h2>
+        <div class="experience">
+            <div class="job">
+                <h3>Workflow Engineer & PHP Developer (WHMCS)</h3>
+                <p><em>Private Managed Hosting Company | Remote | Jan 2023 - Jul 2025</em></p>
+                <ul>
+                    <li>Developed custom modules and automation scripts in WHMCS using PHP</li>
+                    <li>Streamlined internal workflows for billing, provisioning, and support teams</li>
+                    <li>Created and integrated RESTful APIs for external tools</li>
+                    <li>Customized WHMCS templates and hooks to extend platform functionality</li>
+                    <li>Collaborated with technical and non-technical teams to implement scalable solutions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="degree">
+                <h3>BS Computer Science (Ongoing)</h3>
+                <p><em>University of the Philippines Mindanao | Davao City, Philippines</em></p>
+                <p>Aug 2014 - Present</p>
+                <ul>
+                    <li><strong>FLOPOL (Floating-Point Oriented Language):</strong> Designed and implemented a simple programming language compiler and executor for float operations</li>
+                    <li><strong>Tic-Tac-Toe AI:</strong> Developed a simple AI-based Tic-Tac-Toe game using decision-tree logic</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <strong>Portfolio Website:</strong> Built a responsive portfolio using React.js and Tailwind CSS to showcase projects and GitHub activity.
+            </div>
+            <div class="project">
+                <strong>Inventory System (PHP + HTML/CSS/JS):</strong> Developed a simple inventory tracker with search functionality and dynamic UI using PHP and vanilla JavaScript.
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Languages</h2>
+        <ul>
+            <li>English (Professional)</li>
+            <li>Filipino (Native)</li>
+        </ul>
+    </section>
 
 
-<p>Lorem ipsum dolor sit amet</p>
+    <footer>
+        <div class="container">
+            <p>© 2025 Rojenn Clyde G. Patigdas. All rights reserved.</p>
+        </div>
+    </footer>
 
-
-<h3>My Projects:</h3>
-<ul>
-    <li><a target="_blank" href="https://github.com/rojpatigdas/lc-update-digispark.git">Digispark Attiny85 Script</a></li>
-    <li><a target="_blank" href="./pages/webdevproject.html">Web Development Lessons and Exercises</a></li>
-    <!-- <li><a href="https://github.com/rojpatigdas/lc-update-digispark.git">Digispark Attiny85 Script</a></li> -->
-
-</ul>
-
-<hr/>
-<footer>
-    <p>Copyright © Patigdas 2024</p>
-</footer> 
-
+    <!-- QR Code in the bottom right corner -->
+    <div class="qr-fixed" id="qr-section">
+        <div class="qr-label" aria-label="GitHub Profile" title="GitHub Profile">
+          <svg height="32" width="32" viewBox="0 0 16 16" fill="#181717" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </div>
+        <img src="./assets/My_Github_Profile_QR.png" alt="QR Code">
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
