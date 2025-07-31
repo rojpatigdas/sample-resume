@@ -11,11 +11,13 @@ import QRCode from './components/QRCode';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
+      <div className="main-content">
+        <Header />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+      </div>
       <Footer />
       <QRCode />
     </div>

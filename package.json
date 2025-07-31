@@ -1,7 +1,7 @@
 {
-  "name": "rojenn-portfolio",
+  "name": "sample-resume",
   "version": "1.0.0",
-  "description": "Rojenn Clyde Patigdas - Portfolio Website",
+  "description": "My Portfolio Website",
   "homepage": "https://rojpatigdas.github.io/sample-resume",
   "private": true,
   "dependencies": {
