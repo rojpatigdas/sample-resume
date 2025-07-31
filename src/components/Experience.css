@@ -1,0 +1,19 @@
+/* Experience Section */
+.experience .job {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.experience ul {
+    margin-top: 10px;
+    list-style-type: square;
+}
+
+.experience ul li {
+    margin-left: 20px;
+    font-size: 1.1rem;
+} 
